@@ -1,5 +1,5 @@
 # ARC3D
-This repo is the official implementation of paper ["Robust 3D Point Cloud Recognition: Enhancing Robustness with GPT-4 and CLIP Integration"]
+This repo is the official implementation of paper ["Robust 3D Point Cloud Recognition: Enhancing Robustness with GPT-4 and CLIP Integration"].
 
 ## Introduction
 In recent years, deep neural networks have achieved significant success in 3D point cloud classification tasks. However, they still face challenges such as data occlusions, noise, and outliers caused by complex environments and sensor inaccuracies. These factors test the robustness and generalization abilities of the models. In this work, we focus on enhancing the robustness of point cloud classification models using popular foundational models. We propose a new framework based on the combination of GPT and CLIP models to improve the robustness of existing classification models. The framework has two main modules: the Text-Image Fusion Module, which includes a GPT-Driven TextGen Processor and FocalView Projection, and the Dual-Path Intelligent Adapter Module. Additionally, during the fine-tuning process, we employ a variant of Projected Gradient Descent (PGD) adversarial training, named VPGD, to increase the model's resilience to adversarial perturbations. Our approach has achieved state-of-the-art results on robust 3D point cloud recognition datasets, such as ModelNet40-C and ScanObjectNN-C.
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 
 ## Get stared
-Note that our claimed results are possibly not the best results, but a best result in our training process. You can simply infer the weights we pre trained first. We provide the pre-trained checkpoint [pre_train.pth](https://drive.google.com/file/d/1nLTAiGwGrRimwol6O-fYxnlYFXWVBwPs/view?usp=sharing)
+Note that our claimed results are possibly not the best results, but a best result in our training process. You can simply infer the weights we pre trained first. We provide the pre-trained checkpoint [pre_train.pth](https://drive.google.com/file/d/1nLTAiGwGrRimwol6O-fYxnlYFXWVBwPs/view?usp=sharing).
 
 ### Train
 ```
